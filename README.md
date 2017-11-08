@@ -1,6 +1,6 @@
 # ASP.NET Core Static Files with caching
 
-[![Build status](https://ci.appveyor.com/api/projects/status/rqp3tneiy0bi1697?svg=true)](https://ci.appveyor.com/project/madskristensen/webessentials-aspnetcore-outputcaching)
+[![Build status](https://ci.appveyor.com/api/projects/status/jy3un0oxyudrg536?svg=true)](https://ci.appveyor.com/project/madskristensen/webessentials-aspnetcore-staticfileswithcache)
 [![NuGet](https://img.shields.io/nuget/v/WebEssentials.AspNetCore.StaticFilesWithCache.svg)](https://nuget.org/packages/WebEssentials.AspNetCore.StaticFilesWithCache/)
 
 Middleware for ASP.NET Core that enables static files and adds client-side caching headers.

@@ -31,6 +31,10 @@ namespace Microsoft.AspNetCore.Builder
         /// </summary>
         public static IApplicationBuilder UseStaticFilesWithCache(this IApplicationBuilder app, TimeSpan cacheExpiration, FileExtensionContentTypeProvider provider)
         {
+            provider.Mappings[".svg"] = "image/svg+xml; charset=utf-8";
+            provider.Mappings[".vsix"] = "application/octed-stream";
+            provider.Mappings[".webmanifest"] = "application/manifest+json; charset=utf-8";
+
             app.UseStaticFiles(new StaticFileOptions()
             {
                 ContentTypeProvider = provider,
